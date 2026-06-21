@@ -1,21 +1,15 @@
-FROM python:3.10-slim
+FROM nikolaik/python-nodejs:python3.10-nodejs20
 
-# सभी जरूरी पैकेज एक साथ इंस्टॉल
-RUN apt-get update && apt-get install -y \
-    ffmpeg \
-    nodejs \
-    npm \
-    git \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
+RUN curl -L https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz \
+    -o ffmpeg.tar.xz && \
+    tar -xJf ffmpeg.tar.xz && \
+    mv ffmpeg-*-static/ffmpeg /usr/local/bin/ && \
+    mv ffmpeg-*-static/ffprobe /usr/local/bin/ && \
+    rm -rf ffmpeg*
 
-# ऐप कॉपी करें
 COPY . /app/
 WORKDIR /app/
 
-# पायथन पैकेज इंस्टॉल करें
-RUN pip install -r requirements.txt
+RUN pip3 install --no-cache-dir -r requirements.txt
 
-# स्टार्ट कमांड
-CMD bash start
- 
+CMD ["bash", "start"]
