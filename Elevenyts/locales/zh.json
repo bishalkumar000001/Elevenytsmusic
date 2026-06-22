@@ -16,7 +16,7 @@
   "support": "支持",
   "channel": "频道",
   "play_usage": "<b>用法:</b> <code>/play [歌曲名称/YouTube链接/回复音频文件]</code>",
-  "start_pm": "✦ 你好 {0}, ⊚ 我是 {1}!\n\n✨ Telegram 群组专属高级音乐机器人\n💖 即时播放，无延迟\n\n⚡ Powered by ♡ <a href=\"https://t.me/elevenytsmusic\">Artist</a>",
+  "start_pm": "✦ 你好 {0}, ⊚ 我是 {1}!\n\n✨ Telegram 群组专属高级音乐机器人\n💖 即时播放，无延迟\n\n⚡ Powered by ♡ <a href=\"https://t.me/junoxmusic_updates\">VelocityBots</a>",
   "start_gp": "你好!\n我是 {0}\n\n<u><b>一个出色的音乐机器人。</b></u>",
   "start_settings": "<u><b>{0} 设置</b></u>\n\n点击下方按钮更改此聊天的设置。"
 }
