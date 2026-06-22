@@ -16,7 +16,7 @@
   "support": "サポート",
   "channel": "チャンネル",
   "play_usage": "<b>使い方:</b> <code>/play [曲名/YouTube URL/音声ファイルに返信]</code>",
-  "start_pm": "✦ こんにちは {0}、⊚ 私は {1} です!\n\n✨ Telegramグループ向けプレミアム音楽ボット\n💖 遅延なしでインスタント再生\n\n⚡ Powered by ♡ <a href=\"https://t.me/elevenytsmusic\">Artist</a>",
+  "start_pm": "✦ こんにちは {0}、⊚ 私は {1} です!\n\n✨ Telegramグループ向けプレミアム音楽ボット\n💖 遅延なしでインスタント再生\n\n⚡ Powered by ♡ <a href=\"https://t.me/junoxmusic_updates\">VelocityBots</a>",
   "start_gp": "こんにちは!\n私は {0} です\n\n<u><b>素晴らしい音楽ボット。</b></u>",
   "start_settings": "<u><b>{0} の設定</b></u>\n\nこのチャットの設定を変更するには下のボタンをクリックしてください。"
 }
