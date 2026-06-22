@@ -16,7 +16,7 @@
   "support": "지원",
   "channel": "채널",
   "play_usage": "<b>사용법:</b> <code>/play [노래 이름/YouTube URL/오디오 파일 답장]</code>",
-  "start_pm": "✦ 안녕하세요 {0}, ⊚ 저는 {1}입니다!\n\n✨ 텔레그램 그룹을 위한 프리미엄 음악 봇\n💖 지연 없이 즉시 재생\n\n⚡ Powered by ♡ <a href=\"https://t.me/elevenytsmusic\">Artist</a>",
+  "start_pm": "✦ 안녕하세요 {0}, ⊚ 저는 {1}입니다!\n\n✨ 텔레그램 그룹을 위한 프리미엄 음악 봇\n💖 지연 없이 즉시 재생\n\n⚡ Powered by ♡ <a href=\"https://t.me/junoxmusic_updates\">VelocityBots</a>",
   "start_gp": "안녕하세요!\n저는 {0}입니다\n\n<u><b>멋진 음악 플레이어 봇입니다.</b></u>",
   "start_settings": "<u><b>{0} 설정</b></u>\n\n아래 버튼을 클릭하여 이 채팅의 설정을 변경하세요."
 }
