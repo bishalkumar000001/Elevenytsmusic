@@ -16,7 +16,7 @@
   "support": "Soporte",
   "channel": "Canal",
   "play_usage": "<b>Uso:</b> <code>/play [nombre de la canción/URL de YouTube/responder a audio]</code>",
-  "start_pm": "✦ ¡Hola {0}! ⊚ Soy {1}!\n\n✨ Bot de música premium para grupos de Telegram\n💖 Reproducción instantánea sin retrasos\n\n⚡ Powered by ♡ <a href=\"https://t.me/elevenytsmusic\">Artist</a>",
+  "start_pm": "✦ ¡Hola {0}! ⊚ Soy {1}!\n\n✨ Bot de música premium para grupos de Telegram\n💖 Reproducción instantánea sin retrasos\n\n⚡ Powered by ♡ <a href=\"https://t.me/junoxmusic_updates\">VelocityBots</a>",
   "start_gp": "¡Hola!\nSoy {0}\n\n<u><b>Un increíble bot de música.</b></u>",
   "start_settings": "<u><b>Configuración de {0}</b></u>\n\nHaz clic en los botones de abajo para cambiar la configuración de este chat."
 }
