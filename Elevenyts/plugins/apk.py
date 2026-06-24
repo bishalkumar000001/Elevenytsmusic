@@ -24,7 +24,7 @@ import asyncio
 # -------------------------------------------------
 from Elevenyts import app, db
 
-afk_col = db["afk"]
+afk_col = db.dbafk
 LAST_SEEN = {}
 AFK_COOLDOWN = {}
 
