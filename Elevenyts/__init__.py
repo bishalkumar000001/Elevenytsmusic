@@ -37,7 +37,7 @@ logging.getLogger("pymongo").setLevel(logging.ERROR)
 logging.getLogger("pyrogram").setLevel(logging.ERROR)
 logging.getLogger("pytgcalls").setLevel(logging.ERROR)
 
-logger = logging.getLogger("Elevenyts")
+logger = logging.getLogger("Juno X Music")
 
 # Version
 __version__ = "3.0.1"
