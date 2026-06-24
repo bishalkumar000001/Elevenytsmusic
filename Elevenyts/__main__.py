@@ -1,7 +1,7 @@
 # ==========================================================
 # Copyright (c) 2026 ArtistBots
 # All Rights Reserved.
-# 
+#
 # Project      : ArtistBots API Telegram Music Bot
 # Powered By   : Artist
 # Type         : API Based Telegram Music Bot
@@ -97,6 +97,14 @@ async def main():
             except Exception as e:
                 logger.error(f"Failed to load plugin {module}: {e}", exc_info=True)
         logger.info(f"🔌 Loaded {len(all_modules)} plugin modules.")
+
+        # Step 7.5: Start AFK system
+        try:
+            from Elevenyts.plugins.features.afk import start_afk
+            start_afk(app)
+            logger.info("🌙 AFK system started successfully.")
+        except Exception as e:
+            logger.warning(f"Failed to start AFK system: {e}")
 
         # Step 8: Load sudo users and blacklisted users from database
         sudoers = await db.get_sudoers()
