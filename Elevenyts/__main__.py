@@ -22,6 +22,7 @@ import threading
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
 from pyrogram import idle
+from plugins.afk import start_afk
 
 # Raise the file descriptor limit on Linux to avoid "[Errno 24] Too many open files"
 # when serving many groups concurrently (each audio stream + ffmpeg probe opens FDs).
